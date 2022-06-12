@@ -8,3 +8,28 @@
   gap: 2rem;
   align-items: flex-start;
 }
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87,5%;
+  }
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*
+Calculo do Font Size
+
+16 -> 100
+14 -X
+
+16x = 1400
+x = 1400 / 16
+
+x = 87,5
+
+Simplificando
+
+14 * 100 / 16 = 87,5 
+*/
