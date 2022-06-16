@@ -15,7 +15,7 @@ export function Sidebar() {
         <Avatar src={"https://github.com/diego64.png"}/>
 
         <strong>Diego Ferreira L.G.Oliveira</strong>
-        <span>Developer JR (JS)</span>
+        <span>Developer JR (JS) @ESPN</span>
       </div>
 
       <footer>
