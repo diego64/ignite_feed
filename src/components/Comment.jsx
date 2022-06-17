@@ -3,7 +3,7 @@ import { Avatar } from './Avatar';
 
 import styles from './Comment.module.css';
 
-export function Comment() {
+export function Comment({ content }) {
   return(
     <div className={styles.comment}>
       <Avatar hasBorder={false} src="http://github.com/AlexSouzaSilvax.png" alt="" />
@@ -21,7 +21,7 @@ export function Comment() {
               </button>
             </header>
 
-            <p>Muito Top Irmão, Sucesso! 👋👋👋</p>
+            <p>{content}</p>
         </div>
 
         <footer>
